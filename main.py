@@ -26,7 +26,7 @@ class Snake:
         self.length = 1
         self.positions = [((WIDTH // 2), (HEIGHT // 2))]
         self.direction = random.choice([UP, DOWN, LEFT, RIGHT])
-        self.color = RED
+        self.color = WHITE
 
     def get_head_position(self):
         return self.positions[0]
@@ -55,7 +55,7 @@ class Snake:
 class Food:
     def __init__(self):
         self.position = (0, 0)
-        self.color = WHITE
+        self.color = RED
         self.randomize_position()
 
     def randomize_position(self):
