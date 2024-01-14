@@ -67,7 +67,7 @@ class Food:
 
 # ゲームの初期化
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Snake Game")
+pygame.display.set_caption("蛇ゲーム！！")
 
 snake = Snake()
 food = Food()
